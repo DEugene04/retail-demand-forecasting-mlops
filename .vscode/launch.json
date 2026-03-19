@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train Pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pipelines.train_pipeline",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
