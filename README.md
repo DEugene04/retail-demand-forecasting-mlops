@@ -93,7 +93,7 @@ Dataset -> Data Versioning (DVC) -> Feature Engineering -> Training Pipeline -> 
 5. Open link to MLflow
    - http://127.0.0.1:5000
 6. Run API
-   - uvicorn app.main:app --reload
+   - uvicorn app.api:app --reload
 7. Open link to API
    - http://127.0.0.1:8000/docs
 8. Run with Docker
