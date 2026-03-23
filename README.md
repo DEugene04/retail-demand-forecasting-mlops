@@ -87,19 +87,18 @@ Dataset -> Data Versioning (DVC) -> Feature Engineering -> Training Pipeline -> 
 3. Train model
    python pipelines/train_pipeline.py
 4. Run MLflow UI
-   mlflow ui \
-    --backend-store-uri sqlite:///mlflow.db \
-    --default-artifact-root ./mlruns
+   'mlflow ui \
+   --backend-store-uri sqlite:///mlflow.db \
+   --default-artifact-root ./mlruns'
 5. Open link to MLflow
    http://127.0.0.1:5000
 6. Run API
-   uvicorn app.main:app --reload
+   'uvicorn app.main:app --reload'
 7. Open link to API
    http://127.0.0.1:8000/docs
 8. Run with Docker
-
-- docker build -t store-sales-api .
-- docker run -p 8000:8000 store-sales-api
+   docker build -t store-sales-api .
+   docker run -p 8000:8000 store-sales-api
 
 ---
 
