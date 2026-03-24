@@ -8,5 +8,4 @@ joblib
 pydantic
 pathlib
 matplotlib
-json
 mlflow
